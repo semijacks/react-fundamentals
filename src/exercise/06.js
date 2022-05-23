@@ -93,7 +93,7 @@ function UsernameForm({onSubmitUsername}) {
   return (
     <form onSubmit={handleSubmit}>
       <div>
-        <label htmlFor="uernameInput">Username:</label>
+        <label htmlFor="usernameInput">Username:</label>
         <input
           id="usernameInput"
           value={username}
